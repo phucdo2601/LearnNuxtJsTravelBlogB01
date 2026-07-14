@@ -1,5 +1,7 @@
 import { int, real, sqliteTable, text, unique } from "drizzle-orm/sqlite-core";
 
+import { user } from "./user";
+
 export const location = sqliteTable("location", {
   id: int().primaryKey({ autoIncrement: true }),
   name: text().notNull(),
