@@ -53,7 +53,9 @@ function toggleSidebar() {
         />
       </div>
     </div>
-    <div class="flex-1 bg-amber-400" />
+    <div class="flex-1">
+      <NuxtPage />
+    </div>
   </div>
 </template>
 
