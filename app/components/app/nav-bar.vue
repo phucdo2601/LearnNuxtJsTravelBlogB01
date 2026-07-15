@@ -14,7 +14,7 @@ export default {
 
     <div class="navbar-end">
       <AppThemeToggle />
-      <a href="" class="btn btn-accent">Sign In</a>
+      <AuthButton />
     </div>
   </div>
 </template>

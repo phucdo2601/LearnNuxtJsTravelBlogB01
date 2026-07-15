@@ -1,4 +1,4 @@
-import { auth } from "~~/lib/auth"; // import your auth config
+import { auth } from "../../../app/lib/auth";
 
 export default defineEventHandler((event) => {
   return auth.handler(toWebRequest(event));
